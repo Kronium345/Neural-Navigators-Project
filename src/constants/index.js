@@ -166,7 +166,7 @@ import game from "../assets/storyboard/game.jpg";
     {
       title: "Final Submission",
       company_name: "Project Finalisation",
-      icon: forage,
+      // icon: forage,
       iconBg: "#E6DEDD",
       date: "3rd March 2024",
       points: [
