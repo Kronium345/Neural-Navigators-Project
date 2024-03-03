@@ -1,13 +1,12 @@
 import React from 'react';
-// import Tilt from 'react-tilt';
 import Tilt from 'react-parallax-tilt';
 import { motion } from 'framer-motion';
-import { styles } from '../styles';
+import { SectionWrapper } from '../hoc';
 import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion'; 
-import { SectionWrapper } from '../hoc';
+import logoImage from '../assets/tech/Bio-Watch logo.png'; // Import your logo image
 
-const   About = () => {
+const About = () => {
 
   const ServiceCard = ({ index, title, icon }) => {
     return (
@@ -28,18 +27,23 @@ const   About = () => {
 
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Daniel -</p>
-        <h2 className={styles.sectionHeadText}>About</h2>
-      </motion.div>
+      {/* Wrap the image and text inside a container */}
+      <div className="flex flex-col items-center justify-center">
+        {/* Apply CSS styling to the image */}
+        <img src={logoImage} alt="Logo" className="w-125 h-125 mx-auto mt-4" /> {/* Add mx-auto and mt-4 classes */}
 
-      <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-        I am skilled in a myriad of programming languages and tools, such as HTML, CSS, JavaScript,
-        React, React Native, Three, Next, Python and SQL.
-        I am a motivated and driven team-player, who works well with teams, as well as my own initiative. I have strong problem-solving skills and have
-        and have the ability to work effectively in any environment, be it remote, hybrid or on-site. I am committed to learning new skills and tricks to enhance my
-        software development progress.
-      </motion.p>
+        <motion.div variants={textVariant()} className="text-center mt-4">
+          {/* <p className={styles.sectionSubText}>Daniel -</p> */}
+          {/* <h2 className={styles.sectionHeadText}>About</h2> */}
+          <p className="text-secondary text-[17px] max-w-3xl leading-[30px]">
+            I am skilled in a myriad of programming languages and tools, such as HTML, CSS, JavaScript,
+            React, React Native, Three, Next, Python and SQL.
+            I am a motivated and driven team-player, who works well with teams, as well as my own initiative. I have strong problem-solving skills and have
+            the ability to work effectively in any environment, be it remote, hybrid or on-site. I am committed to learning new skills and tricks to enhance my
+            software development progress.
+          </p>
+        </motion.div>
+      </div>
 
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
@@ -50,4 +54,4 @@ const   About = () => {
   )
 }
 
-export default SectionWrapper(About, "about")
+export default SectionWrapper(About, "about");

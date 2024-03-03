@@ -2,7 +2,9 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { styles } from '../styles';
 import { navLinks } from '../constants';
-import { logo, menu, close } from '../assets';
+import { menu, close } from '../assets';
+import logoImage from '../assets/tech/Bio-Watch logo.png'; // Import your logo image
+
 
 const Navbar = () => {
 
@@ -16,7 +18,7 @@ const Navbar = () => {
           setActive("");
           window.scrollTo(0, 0);
           }}>
-            <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+            <img src={logoImage} alt="logo" className="w-14 h-14 object-contain" />
             <p className="text-white text-[18px] font-bold cursor-pointer">The Neural Navigators<span className="sm:block hidden">| Bio-Watch</span></p>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
