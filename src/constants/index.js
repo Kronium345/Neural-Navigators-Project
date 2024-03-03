@@ -1,18 +1,13 @@
 import {
     mobile,
     backend,
-    creator,
     web,
     javascript,
     html,
     css,
     reactjs,
-    redux,
     tailwind,
-    nodejs,
-    mongodb,
     git,
-    threejs,
     forage,
     boysenb,
     justit,
@@ -25,6 +20,15 @@ import {
     project20,
     project21,
   } from "../assets";
+import meter2 from "../assets/img/meter2.svg.png"; // jupyter
+import meter3 from "../assets/img/meter3.png"; // vs code
+import meter4 from "../assets/img/meter4.png"; // tile
+import meter5 from "../assets/img/meter5.jpg"; // python
+import meter7 from "../assets/img/meter7.png"; // figma 
+import projImg1 from "../assets/img/project-img1.png";
+import projImg2 from "../assets/img/project-img2.png";
+import projImg3 from "../assets/img/project-img3.png";
+
   
   export const navLinks = [
     {
@@ -43,25 +47,25 @@ import {
   
   const services = [
     {
-        title: "Junior Software Developer",
+        title: "Environmentalists",
         icon: web,
       },
       {
-        title: "Trainee Cyber Security Analyst",
+        title: "Researchers",
         icon: backend,
       },
     {
-      title: "Graduate Web Developer",
+      title: "Game Developers",
       icon: mobile,
     },
     {
-      title: "Trainee Software Developer",
+      title: "Policy Makers",
       icon: web,
     },
-    {
-      title: "Virtual Internships",
-      icon: web,
-    },
+    // {
+    //   title: "Virtual Internships",
+    //   icon: web,
+    // },
   ];
   
   const technologies = [
@@ -82,28 +86,32 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Jupyter",
+      icon: meter2,
     },
     {
       name: "Tailwind CSS",
       icon: tailwind,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
+      name: "VS Code",
+      icon: meter3,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "Tile",
+      icon: meter4,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "Python",
+      icon: meter5,
     },
     {
       name: "git",
       icon: git,
+    },
+    {
+      name: "Figma",
+      icon: meter7,
     },
   ];
   
@@ -164,26 +172,26 @@ import {
     {
       testimonial:
         "I thought it was impossible to meet a more harder worker than what we've seen, but Daniel has proven me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acubase",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      name: "Daniel Awolowo",
+      designation: "Machine Learning Development",
+      company: "MSc Software Engineering with Cloud Computing",
+      image: projImg1,
     },
     {
       testimonial:
         "I've never met a web developer who truly cares about their clients' success like Daniel does.",
-      name: "Chris David",
-      designation: "COO",
-      company: "BoysenB Software",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+      name: "Roinee Banerjee",
+      designation: "Design & Development",
+      company: "BSc Computer Science",
+      image: projImg2,
     },
     {
       testimonial:
         "After Daniel optimized our website, our traffic increased by 50%. We can't thank him enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "Tata Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      name: "Yousof Abbas",
+      designation: "Design & Development",
+      company: "BSc Mechanical Engineering",
+      image: projImg3,
     },
   ];
   
