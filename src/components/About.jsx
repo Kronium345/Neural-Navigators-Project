@@ -30,7 +30,7 @@ const   About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Daniel -</p>
-        <h2 className={styles.sectionHeadText}>Overview</h2>
+        <h2 className={styles.sectionHeadText}>About</h2>
       </motion.div>
 
       <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">

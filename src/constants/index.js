@@ -117,53 +117,50 @@ import projImg3 from "../assets/img/project-img3.png";
   
   const experiences = [
     {
-      title: "Junior Software Developer",
-      company_name: "Acubase Critical Care",
+      title: "Day 1",
+      company_name: "Storyboard Creation and Development",
       icon: acubase,
       iconBg: "#383E56",
-      date: "June 2023 - Present",
+      date: "1st March 2024",
       points: [
-        "Working with 4D, a component of C++ to a professional degree.",
-        "Demonstrating strong provlem-solving skills.",
-        "Utilising SQL commands, along with HL7 and OBDC.",
+        "Creating a storyboard for the Hackathon project alongwith the theme.",
+        "Discussing strengths , programming skills and experience , to distribute tasks between team members.",
+        "Finalised theme was Biodiversity Conservation through Threat Identifier.",
       ],
     },
     {
-      title: "Graduate Web Developer",
-      company_name: "BoysenB Software",
+      title: "Day 2",
+      company_name: "Machine Learning Model and Game Asset Application and Development",
       icon: boysenb,
       iconBg: "#E6DEDD",
-      date: "Feb 2023 - Mar 2023",
+      date: "2nd March 2024",
       points: [
-        "Created cloud servers using Node to connect web applications with mobile applications.",
-        "Created mobile applications for specific purposes and functions using React Native.",
+        "Started the web application development.",
+        "Created and modified loading machine model for the Threat Identifier.",
+        "Created the tiles , sprites , Game World in Tile Editor for the game. "
       ],
     },
     {
-      title: "Trainee Software Developer",
-      company_name: "JustIT Bootcamp",
+      title: "Day 3",
+      company_name: "Game and Web Application Development",
       icon: justit,
       iconBg: "#383E56",
-      date: "Oct 2022 - Feb 2023",
+      date: "3rd March 2024",
       points: [
-        "Training in both Front-End & Back-End Development.",
-        "Learned a variety of programming languages, such as HTML, CSS, JavaScript, Python & MySQL.",
-        "Created my own personal portfolio that I consistently work on and add to.",
-        "Completed projects and tasks in a fashion identical to a work-based remote environment.",
-        "Taught and trained myself on other programming languages, such as React, as well as how to implement APIs.",
-        "Gathered information and knowledge about different utilities and applications.",
+        "Following Tutorials to implement different React componenet in React.",
+        "Final developments on sprite sheets and Game world.",
+        "Programming for Collision Detection and Scene Transition.",
+        "Organising the presentation.",
       ],
     },
     {
-      title: "Virtual Internships",
-      company_name: "Forage",
+      title: "Final Submission",
+      company_name: "Project Finalisation",
       icon: forage,
       iconBg: "#E6DEDD",
-      date: "Aug 2022 - Oct 2022",
+      date: "3rd March 2024",
       points: [
-        "Accenture: “Coding: Development & Advanced Engineering”: Completed practical tasks in object-oriented programming, code refactoring, continuous integration and agile planning.",
-        "Tata: “Data Visualization: Empowering Businesses with Effective Insight”: Completed practical task modules in framing business scenarios, choosing the right visuals, creating effective visuals and communication insights and analysis.",
-        "Align Technology: “Software Engineering Programmer”: Completed practical task modules in project planning for a Front-End Prototype.",
+        "Project Submission"
       ],
     },
   ];
@@ -171,7 +168,7 @@ import projImg3 from "../assets/img/project-img3.png";
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to meet a more harder worker than what we've seen, but Daniel has proven me wrong.",
+        "The Hackathon was truly a wonderful experience, learning about the MARIA-1 , Stability.ai and further development in Generative AI. Learning from researchers , networking with industry leaders and fellow competitiors about their wide spread applications motivates me to utlise Machine Learning and thinking outside the box to help resolve immediate issues.",
       name: "Daniel Awolowo",
       designation: "Machine Learning Development",
       company: "MSc Software Engineering with Cloud Computing",
@@ -179,17 +176,17 @@ import projImg3 from "../assets/img/project-img3.png";
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Daniel does.",
+        "From learning on different updates and features to improve model performance, the possible applications and exciting future of Generative AI followed by an amazing panel discussing its ethical use, to pulling all-nighters for the project. My experience in my first ever Hackathon at GenAI Hackathon is something that has helped my develop life and technical skills that I will take forward in my career path",
       name: "Roinee Banerjee",
-      designation: "Design & Development",
+      designation: "Web Application Development",
       company: "BSc Computer Science",
       image: projImg2,
     },
     {
       testimonial:
-        "After Daniel optimized our website, our traffic increased by 50%. We can't thank him enough!",
+        " The Hackathon with the Fireside Chat , pushed my programming skills and knowledge in JavaScript, game development and Generative AI. It was challenging to work through the some of the issues and understanding the mechanics of the game design , however with my team member's help we managed to create a demo for a product all three of us are proud of. ",
       name: "Yousof Abbas",
-      designation: "Design & Development",
+      designation: "Game Development",
       company: "BSc Mechanical Engineering",
       image: projImg3,
     },
