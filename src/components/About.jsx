@@ -36,11 +36,7 @@ const About = () => {
           {/* <p className={styles.sectionSubText}>Daniel -</p> */}
           {/* <h2 className={styles.sectionHeadText}>About</h2> */}
           <p className="text-secondary text-[17px] max-w-3xl leading-[30px]">
-            I am skilled in a myriad of programming languages and tools, such as HTML, CSS, JavaScript,
-            React, React Native, Three, Next, Python and SQL.
-            I am a motivated and driven team-player, who works well with teams, as well as my own initiative. I have strong problem-solving skills and have
-            the ability to work effectively in any environment, be it remote, hybrid or on-site. I am committed to learning new skills and tricks to enhance my
-            software development progress.
+          An environment themed web app which utilises a threat identifier created using an LLM in a JavaScript game , to help identify environmental threats affecting different animals and helping us implement solutions to save them.
           </p>
         </motion.div>
       </div>
