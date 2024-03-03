@@ -28,6 +28,13 @@ import meter7 from "../assets/img/meter7.png"; // figma
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
 import projImg3 from "../assets/img/project-img3.png";
+import train from "../assets/storyboard/train.jpg";
+import day2 from "../assets/storyboard/day2.jpg";
+import storyboard1 from "../assets/storyboard/storyboard1.jpg";
+import storyboard2 from "../assets/storyboard/storyboard2.jpg";
+import storyboard3 from "../assets/storyboard/storyboard3.jpg";
+import aimodel from "../assets/storyboard/aimodel.png";
+import game from "../assets/storyboard/game.jpg";
 
   
   export const navLinks = [
@@ -119,7 +126,7 @@ import projImg3 from "../assets/img/project-img3.png";
     {
       title: "Day 1",
       company_name: "Storyboard Creation and Development",
-      icon: acubase,
+      icon: storyboard1,
       iconBg: "#383E56",
       date: "1st March 2024",
       points: [
@@ -127,11 +134,12 @@ import projImg3 from "../assets/img/project-img3.png";
         "Discussing strengths , programming skills and experience , to distribute tasks between team members.",
         "Finalised theme was Biodiversity Conservation through Threat Identifier.",
       ],
+      images: [train, storyboard1],
     },
     {
       title: "Day 2",
       company_name: "Machine Learning Model and Game Asset Application and Development",
-      icon: boysenb,
+      icon: aimodel,
       iconBg: "#E6DEDD",
       date: "2nd March 2024",
       points: [
@@ -139,11 +147,12 @@ import projImg3 from "../assets/img/project-img3.png";
         "Created and modified loading machine model for the Threat Identifier.",
         "Created the tiles , sprites , Game World in Tile Editor for the game. "
       ],
+      images: [day2, storyboard2, aimodel],
     },
     {
       title: "Day 3",
       company_name: "Game and Web Application Development",
-      icon: justit,
+      icon: game,
       iconBg: "#383E56",
       date: "3rd March 2024",
       points: [
@@ -152,6 +161,7 @@ import projImg3 from "../assets/img/project-img3.png";
         "Programming for Collision Detection and Scene Transition.",
         "Organising the presentation.",
       ],
+      images: [storyboard3, aimodel],
     },
     {
       title: "Final Submission",

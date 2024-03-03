@@ -8,10 +8,9 @@ import { projects } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 
 const Works = () => {
-
   const ProjectCard = ({ index, name, description, tags, image, source_code_link, github_code_link }) => {
     return (
-      <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+      <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)} className="mr-7">
         <Tilt options={{
           max: 45,
           scale: 1,
@@ -23,7 +22,7 @@ const Works = () => {
             <img src={image} alt={name} className="w-full h-full object-cover rounded-2xl" />
             <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
               <div onClick={() => window.open(github_code_link, "_blank")} className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer mr-3">
-              <img src={github} alt="github" className="w-1/2 h-1/2 object-contain" />
+                <img src={github} alt="github" className="w-1/2 h-1/2 object-contain" />
               </div>
               <div onClick={() => window.open(source_code_link, "_blank")} className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
                 <img src={image} alt="project" className="w-1/2 h-1/2 object-contain" />
@@ -51,17 +50,18 @@ const Works = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>My works</p>
-        <h2 className={styles.sectionHeadText}>Projects</h2>
+        <h2 className={styles.sectionHeadText}>Upcoming Updates</h2>
       </motion.div>
 
-      <div className="w-full flex">
-        <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
-          The following projects showcase my skills and experience through real-world examples of my work. Each project has links to the live demos for those codes.
-          It reflects my ability to solve complex problems, work with different technologies, and manage different projects.
+      <div className="w-full mt-3 overflow-x-auto">
+        <motion.p variants={fadeIn("", "", 0.1, 1)} className="text-secondary text-[17px] max-w-3xl leading-[30px]">
+          For this demo, to implement it in a larger scale, it requires several updates and further development. <br />
+          Which we will pursue in the future. We have developed a Contact Us Form, through which we will receive feedback from <br />
+          our users to design accurate and user-friendly updates.
         </motion.p>
       </div>
 
-      <div className="mt-20 flex flex-wrap gap-7">
+      <div className="mt-20 flex gap-7 overflow-x-auto">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
